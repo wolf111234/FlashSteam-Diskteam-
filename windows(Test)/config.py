@@ -1,0 +1,17 @@
+# config.py
+import os
+BASE_DIR=os.path.dirname(os.path.abspath(__file__))
+CACHE_DIR=os.path.join(BASE_DIR,"cache")
+LOG_FILE=os.path.join(BASE_DIR,"diskteam.log")
+USB_POLL_INTERVAL=1.5
+GAMEIDS_FILENAME="SteamID.txt"
+COLUMNS=4
+TILE_W,TILE_H=280,160
+TILE_GAP=22
+FPS=60
+SOUND_ENABLED=True
+SOUND_VOLUME=0.35
+HTTP_TIMEOUT=8
+TITLE_FONT_SIZE=42
+HINT_FONT_SIZE=20
+SINGLE_TILE_W,SINGLE_TILE_H=460,260
